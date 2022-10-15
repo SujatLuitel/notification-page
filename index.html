@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+<body>
+  <div class="main-container">
+    <div class="container">
+      <header>
+        <div>
+          <h1>Notifications</h1>
+          <span id="number"></span>
+        </div>
+        <p id="mark_all">Mark all as read</p>
+      </header>
+      <main>
+        <div class="notifications">
+          <div class="unread columns">
+            <img src="./assets/images/avatar-mark-webber.webp" alt="mark-avatar">
+              <div class="left-side"> 
+                <span class="heading"><a class="names" href="#">Mark Webber</a> reacted to your recent post <a class="group-names" href="#">My tournament today!</a></span>
+                <span class="time">1m ago</span>
+              </div>
+          </div>
+          <div class="unread columns">
+            <img src="./assets/images/avatar-angela-gray.webp" alt="angela-avatar">
+              <div class="left-side"> 
+                <span class="heading"><a class="names" href="#">Angela Gray</a> followed you</span>
+                <span class="time">5m ago</span>
+              </div>
+          </div>
+          <div class="unread columns">
+            <img src="./assets/images/avatar-jacob-thompson.webp" alt="jacob-avatar">
+              <div class="left-side">
+                <span class="heading"><a class="names" href="#">Jacob Thompson</a> has joined yor group <a class="group-names" href="#">Chess Club</a></span>
+                <span class="time">1 day ago</span>
+              </div>
+          </div>
+            <div class="rizky-column">
+              <div class="rizky-top">
+                <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="rizky-avatar">
+                <div class="left-side">
+                  <span class="heading"><a class="names" href="#">Rizky Hasanuddin</a> sent you a private message</span>
+                  <span class="time">5 days ago</span>
+                </div>
+              </div>
+              <div class="rizky-bottom">
+                <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+               I'm already having lots of fun and improving my game.</p>
+              </div>
+            </div>
+            
+          </div>
+          <div class="columns">
+            <img src="./assets/images/avatar-kimberly-smith.webp" alt="kimberly-avatar">
+              <div class="left-side">
+                <span class="heading"><a class="names" href="#">Kimberly Smith</a> commented on your picture</span>
+                <span class="time">1 week ago</span>
+              </div>
+            <img class="img-chess" src="./assets/images/image-chess.webp" alt="chess">
+          </div>
+          <div class="columns">
+            <img src="./assets/images/avatar-nathan-peterson.webp" alt="nathan-avatar">
+              <div class="left-side">
+                <span class="heading"><a class="names" href="#">Nathan Peterson</a> reacted to your recent post <a class="group-names" href="#"> 5 end-game strategies to increase your win rate</a></span>
+                <span class="time">2 weeks ago</span>
+              </div>
+          </div>
+          <div class="columns">
+            <img src="./assets/images/avatar-anna-kim.webp" alt="anna-avatar">
+              <div class="left-side">
+                <span class="heading"><a class="names" href="#">Anna Kim</a> left the group <a class="group-names" href="#">Chess Club</a></span>
+                <span class="time">2 weeks ago</span>
+              </div>
+          </div>     
+        </div>
+      </main>
+    </div>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sujat Luitel</a>.
+  </div>
+</body>
+</html>
